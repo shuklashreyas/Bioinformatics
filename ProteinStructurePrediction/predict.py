@@ -1,5 +1,5 @@
 import numpy as np
-from tensorflow import load_model
+from tensorflow.keras.models import load_model
 from preprocess import encode_sequence
 
 model = load_model("../models/cnn_model.h5")
